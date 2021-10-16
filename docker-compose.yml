@@ -1,0 +1,12 @@
+version: "3"
+
+services:
+  app:
+    stdin_open: true
+    build: .
+    ports:
+      - 3001:3000
+    volumes:
+      - /video-streaming/node_modules
+      - .:/video-streaming
+    command: bash -c "yarn start"
