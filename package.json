@@ -20,7 +20,8 @@
     "eject": "react-scripts eject",
     "spec": "jest --coverage -u",
     "lint": "eslint ./src && eslint ./spec",
-    "lintFix": "eslint ./src --fix && eslint ./spec --fix"
+    "lintFix": "eslint ./src --fix && eslint ./spec --fix",
+    "format": "prettier --write src/**/*.jsx"
   },
   "browserslist": {
     "production": [
