@@ -1,6 +1,75 @@
 import React from 'react';
 import GlobalStyles from './theme/GlobalStyles';
 import Slider from './components/Slider';
+import Jurassic from './assets/images/jurassic.png';
+import MadMax from './assets/images/madmax.png';
+import Rocky from './assets/images/rocky.png';
+
+const ImageData = [
+  {
+    image: Jurassic,
+  },
+  {
+    image: MadMax,
+  },
+  {
+    image: Rocky,
+  },
+  {
+    image: Jurassic,
+  },
+  {
+    image: MadMax,
+  },
+  {
+    image: Rocky,
+  },
+  {
+    image: Jurassic,
+  },
+  {
+    image: MadMax,
+  },
+  {
+    image: Rocky,
+  },
+  {
+    image: Jurassic,
+  },
+  {
+    image: MadMax,
+  },
+  {
+    image: Rocky,
+  },
+  {
+    image: Jurassic,
+  },
+  {
+    image: MadMax,
+  },
+  {
+    image: Rocky,
+  },
+  {
+    image: Jurassic,
+  },
+  {
+    image: MadMax,
+  },
+  {
+    image: Rocky,
+  },
+  {
+    image: Jurassic,
+  },
+  {
+    image: MadMax,
+  },
+  {
+    image: Rocky,
+  },
+];
 
 function App() {
   return (
@@ -14,7 +83,7 @@ function App() {
           alignItems: 'center',
         }}
       >
-        <Slider />
+        <Slider slides={ImageData} />
       </div>
     </>
   );
